@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+
+# Pytest
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Allure report results
+allure-results/
+
+# Playwright test artifacts
+playwright-report/
+
+# System files
+.DS_Store
