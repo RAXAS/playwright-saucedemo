@@ -24,17 +24,14 @@ Saucedemo (https://www.saucedemo.com). Структура проекта сле�
    pip install -r requirements.txt
 
 4. Установите браузеры для Playwright:
-
    ```bash
    playwright install
 
 ### Запуск тестов
-
    ```bash
    pytest --alluredir=allure-results
 
 ### Отчет Allure
 После запуска тестов сформируется папка allure-results. Для просмотра отчета:
-
    ```bash
    allure serve allure-results
